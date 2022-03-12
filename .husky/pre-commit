@@ -2,7 +2,7 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # Lint staged only:
-npx lint-staged
+yarn lint-staged
 
 # Lint every file:
 # yarn tsc --noEmit && yarn eslint . && yarn prettier --write .
