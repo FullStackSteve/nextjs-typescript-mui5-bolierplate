@@ -38,8 +38,8 @@
    },
    "lint-staged": {
       "**/*.{ts,tsx}": [
-         "tsc --noEmit",
-         "eslint --fix"
+         "eslint  --cache --fix",
+         "bash -c tsc --skipLibCheck --noEmit"
       ],
       "**/*.{ts,tsx,json}": [
          "prettier --write"
