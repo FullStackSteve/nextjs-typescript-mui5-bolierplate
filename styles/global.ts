@@ -5,9 +5,18 @@ const GlobalStyles = {
       justifyContent: 'center',
       alignItems: 'center'
    },
+   flexGrid: {
+      display: 'flex'
+   },
+   flexCol: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center'
+   },
    transparentBox: {
       backgroundColor: 'transparent',
-      boxShadow: 'none'
+      boxShadow: 'none',
+      backgroundImage: 'none'
    },
    stretchBox: {
       minWidth: '80%',
