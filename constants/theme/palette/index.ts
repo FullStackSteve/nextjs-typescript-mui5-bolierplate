@@ -14,7 +14,7 @@ declare module '@mui/material/styles' {
    }
 }
 
-const paletteMode: PaletteMode = 'light'
+const paletteMode: PaletteMode = 'dark'
 
 export const palette: PaletteOptions = {
    primary: {
@@ -41,6 +41,6 @@ export const palette: PaletteOptions = {
       paper: white['A700']
    },
    gradient: {
-      default: `linear-gradient(45deg, ${purple['500']} 15%, ${purple['A700']} 90%)`
+      default: `linear-gradient(45deg, ${black['800']} 15%, ${black['900']} 90%)`
    }
 }
