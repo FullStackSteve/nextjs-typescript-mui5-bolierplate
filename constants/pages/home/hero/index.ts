@@ -1,7 +1,7 @@
 export const HeroConstants = {
-   heading: { text: 'A catchy heading' },
+   heading: { text: 'Next.js, TypeScript & MUI 5 Boilerplate' },
    subHeading: {
-      text: 'A longer subheading'
+      text: 'Download or fork this project'
    },
 
    buttons: [
