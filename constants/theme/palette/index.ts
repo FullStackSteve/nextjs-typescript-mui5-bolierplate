@@ -3,10 +3,10 @@ import { black, white } from '../colors'
 
 export const palette = {
    primary: {
-      main: white['50']
+      main: black['A700']
    },
    secondary: {
-      main: black['A700']
+      main: white['A700']
    },
    error: {
       main: red['50']
