@@ -6,7 +6,11 @@
       "dev": "next dev",
       "build": "next build",
       "start": "next start",
-      "lint": "next lint",
+      "lint": "yarn lint:next && yarn lint:tsc && yarn lint:eslint",
+      "lint:next": "next lint",
+      "lint:tsc": "tsc --noEmit",
+      "lint:eslint": "eslint .",
+      "format:prettier": "yarn prettier --write .",
       "prepare": "husky install"
    },
    "dependencies": {
