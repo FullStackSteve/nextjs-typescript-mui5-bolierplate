@@ -1,4 +1,4 @@
-const black = {
+export const black = {
    50: '#FAFAFA',
    100: '#F5F5F5',
    200: '#EEEEEE',
@@ -14,5 +14,3 @@ const black = {
    A400: '#010101',
    A700: '#000000'
 }
-
-export default black

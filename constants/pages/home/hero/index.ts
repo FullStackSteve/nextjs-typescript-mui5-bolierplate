@@ -1,4 +1,4 @@
-export const HOME_HERO_CONSTANTS = {
+export const HeroConstants = {
    heading: { text: 'A catchy heading' },
    subHeading: {
       text: 'A longer subheading'

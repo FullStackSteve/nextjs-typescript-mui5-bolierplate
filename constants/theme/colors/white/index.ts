@@ -1,4 +1,4 @@
-const white = {
+export const white = {
    50: '#FFFFFF',
    100: '#FEFEFE',
    200: '#EEEEEE',
@@ -14,5 +14,3 @@ const white = {
    A400: '#898989',
    A700: '#888888'
 }
-
-export default white

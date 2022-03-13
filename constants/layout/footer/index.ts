@@ -1,3 +1,3 @@
-export const FOOTER_CONSTANTS = {
+export const footerConstants = {
    companyName: { text: 'Company Ltd' }
 }

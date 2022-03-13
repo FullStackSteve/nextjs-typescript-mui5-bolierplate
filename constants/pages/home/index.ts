@@ -1,2 +1,2 @@
-export const HOME_CONSTANTS = {}
+export const HomeConstants = {}
 export * from './hero'
